@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE postings SYSTEM "file:///C:/Users/Tyler%20Pham/Dropbox/a3/posting.dtd">
+<postings>
+	<posting pID="1">
+		<position>Web Developer</position>
+		<reqSkill importance="5" level="4" what="Java"/>
+		<reqSkill importance="4" level="4" what="SQL"/>
+		<questions>
+			<question qID="qID"></question>
+			<question qID="qID"></question>
+		</questions>
+		<questions>
+			<question qID="qID"></question>
+			<question qID="qID"></question>
+		</questions>
+	</posting>
+	
+	<posting pID="2">
+		<position>Niche Programmer</position>
+		<reqSkill importance="5" level="3" what="Lisp"/>
+		<questions>
+			<question qID="qID"></question>
+			<question qID="qID"></question>
+		</questions>
+		<questions>
+			<question qID="qID"></question>
+			<question qID="qID"></question>
+		</questions>
+	</posting>
+</postings>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resumes SYSTEM "file:///C:/Users/Tyler%20Pham/Desktop/a3/a3/resume.dtd">
+<resumes>
+	<resume rID="1">
+		<summary>I am an aspiring web programmer!</summary>
+		<identification>
+			<name>
+				<forename>Ted</forename>
+				<surname>Bear</surname>
+				<honorific>Mr</honorific>
+				<title>Student</title>
+			</name>
+			<sex>M</sex>
+			<DOB>01/01/1990</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>1 Yonge Street</address>
+			<telephone>6471112222</telephone>
+			<email>tedbear@gmail.com</email>
+		</identification>
+		<education>
+			<degree level="certificate">
+				<degreeName>Bachelors in Arts and Science</degreeName>
+				<institution>Ryerson</institution>
+				<major>Computer Science</major>
+				<minor>Liberal Arts</minor>
+				<honours/>
+				<period>
+					<startDate>01/01/2010</startDate>
+					<endDate>01/01/2015</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position where="McDonalds">
+				<title>Cashier</title>
+				<description>Making change but not in the political sense</description>
+				<period>
+					<startDate>01/01/2010</startDate>
+					<endDate>01/01/2013</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill level="2" what="Python"/>
+			<skill level="2" what="LaTeX"/>
+			<skill level="2" what="C"/>
+		</skills>
+	</resume>
+	
+	<resume rID="2">
+		<summary>Ive been programming for 10 years!</summary>
+		<identification>
+			<name>
+				<forename>James</forename>
+				<surname>Spunko</surname>
+				<honorific>Professor</honorific>
+				<title>Professor of Computer Science</title>
+			</name>
+			<sex>M</sex>
+			<DOB>01/01/1980</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>2 Yonge Street</address>
+			<telephone>6471112223</telephone>
+			<email>jamesspunko@gmail.com</email>
+		</identification>
+		<education>
+			<degree level="masters">
+				<degreeName>Bachelors in Arts and Science</degreeName>
+				<institution>UofT</institution>
+				<major>Computer Science</major>
+				<minor>Liberal Arts</minor>
+				<honours/>
+				<period>
+					<startDate>01/01/2010</startDate>
+					<endDate>01/01/2015</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position where="McDonalds">
+				<title>Teacher</title>
+				<description>Making diamonds from coal</description>
+				<period>
+					<startDate>01/01/2010</startDate>
+					<endDate>01/01/2015</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill level="5" what="Python"/>
+			<skill level="5" what="LaTeX"/>
+			<skill level="5" what="C"/>
+			<skill level="5" what="SQL"/>
+			<skill level="5" what="Java"/>
+		</skills>
+	</resume>
+	
+	<resume rID="3">
+		<summary>I taught myself programming from the back of a cereal box</summary>
+		<identification>
+			<name>
+				<forename>Joe</forename>
+				<surname>Smoe</surname>
+				<honorific>Mr</honorific>
+				<title>Unemployed</title>
+			</name>
+			<sex>M</sex>
+			<DOB>01/01/1985</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>3 Yonge Street</address>
+			<telephone>6471112224</telephone>
+			<email>jamesspunko@gmail.com</email>
+		</identification>
+		<experience>
+			<position where="Roots">
+				<title>Sales Associate</title>
+				<description>Selling tings to da peoplez</description>
+				<period>
+					<startDate>01/01/2012</startDate>
+					<endDate>01/01/2013</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill level="1" what="Python"/>
+			<skill level="1" what="Java"/>
+		</skills>
+	</resume>
+</resumes>
