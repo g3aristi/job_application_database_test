@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<interviews>
+<!-- This is for Q2 -->
+<!-- Case1: Duplicates, interviewer did two without col'y -->
+   <interview rID='1111' pID='1111' sID='s1111'>
+      <date>
+      </date>
+      <time>
+      </time>
+      <location>
+      </location>
+      <assessment>
+         <answers>
+	    <answer qID='1111'>
+	    </answer>
+	 </answers>
+	 <techProficiency>
+      	 </techProficiency>
+	 <communication>
+      	 </communication>
+	 <enthusiasm>
+      	 </enthusiasm>
+	 <collegiality>
+	 </collegiality>
+      </assessment>
+   </interview>
+   <interview rID='2222' pID='2222' sID='s1111'>
+      <date>
+      </date>
+      <time>
+      </time>
+      <location>
+      </location>
+      <assessment>
+         <answers>
+            <answer qID='2222'>
+            </answer>
+         </answers>
+         <techProficiency>
+         </techProficiency>
+         <communication>
+         </communication>
+         <enthusiasm>
+         </enthusiasm>
+         <collegiality>
+         </collegiality>
+      </assessment>
+   </interview>
+   <interviewer sID='s1111'>
+      <forename>
+       </forename>
+       <surname>
+       </surname>
+       <honorific>
+       </honorific>
+       <title>
+       </title>
+   </interviewer>
+<!-- Case2: different from case 1 interviewer did both, with col'y and without col'y -->
+<!--  <interview>
+   </interview>
+   <interview>
+   </interview> -->
+<!-- Case3: different interviewer reported col'y in both interviews -->
+<!--   <interview>
+   </interview>
+   <interview>
+   </interview> -->
+</interviews> 
