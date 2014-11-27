@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE postings SYSTEM "posting.dtd">
+<postings>
+	<posting pID="1">
+		<position>Web Developer</position>
+		<reqSkill importance="5" level="4" what="Java"/>
+		<reqSkill importance="4" level="4" what="SQL"/>
+		<questions>
+			<question qID="qID"></question>
+			<question qID="qID"></question>
+		</questions>
+		<questions>
+			<question qID="qID"></question>
+			<question qID="qID"></question>
+		</questions>
+	</posting>
+	
+	<posting pID="2">
+		<position>Niche Programmer</position>
+		<reqSkill importance="3" level="3" what="Lisp"/>
+	</posting>
+
+	<posting pID="3">
+		<position>Programmer1</position>
+		<reqSkill importance="2" level="1" what="Lisp"/>
+		<reqSkill importance="3" level="2" what="Java"/>
+		<reqSkill importance="4" level="4" what="C"/>
+
+	</posting>
+</postings>
