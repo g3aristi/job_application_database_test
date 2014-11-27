@@ -21,8 +21,6 @@
       	 </communication>
 	 <enthusiasm>
       	 </enthusiasm>
-	 <collegiality>
-	 </collegiality>
       </assessment>
    </interview>
    <interview rID='2222' pID='2222' sID='s1111'>
@@ -43,10 +41,110 @@
          </communication>
          <enthusiasm>
          </enthusiasm>
+      </assessment>
+   </interview>
+<!-- Case2: different from case 1 interviewer did both, with col'y and without col'y -->
+   <interview rID='3333' pID='3333' sID='s3333'>
+      <date>
+      </date>
+      <time>
+      </time>
+      <location>
+      </location>
+      <assessment>
+         <answers>
+            <answer qID='3333'>
+            </answer>
+         </answers>
+         <techProficiency>
+         </techProficiency>
+         <communication>
+         </communication>
+         <enthusiasm>
+         </enthusiasm>
+      </assessment>
+   </interview>
+   <interview rID='4444' pID='4444' sID='s3333'>
+      <date>
+      </date>
+      <time>
+      </time>
+      <location>
+      </location>
+      <assessment>
+         <answers>
+            <answer qID='4444'>
+            </answer>
+         </answers>
+         <techProficiency>
+         </techProficiency>
+         <communication>
+         </communication>
+         <enthusiasm>
+         </enthusiasm>
+	 <collegiality>
+		Tyler P
+	 </collegiality>
+      </assessment>
+   </interview>
+<!-- Case3: different interviewer reported col'y in both interviews -->
+   <interview rID='5555' pID='5555' sID='s5555'>
+      <date>
+      </date>
+      <time>
+      </time>
+      <location>
+      </location>
+      <assessment>
+         <answers>
+            <answer qID='5555'>
+            </answer>
+         </answers>
+         <techProficiency>
+         </techProficiency>
+         <communication>
+         </communication>
+         <enthusiasm>
+         </enthusiasm>
+	 <collegiality>
+		Gilberto A
+	 </collegiality>
+      </assessment>
+   </interview>
+   <interview rID='6666' pID='6666' sID='s6666'>
+      <date>
+      </date>
+      <time>
+      </time>
+      <location>
+      </location>
+      <assessment>
+         <answers>
+            <answer qID='6666'>
+            </answer>
+         </answers>
+         <techProficiency>
+         </techProficiency>
+         <communication>
+         </communication>
+         <enthusiasm>
+         </enthusiasm>
          <collegiality>
+                Tyler P
          </collegiality>
       </assessment>
    </interview>
+   <interviewer sID='s5555'>
+      <forename>
+       </forename>
+       <surname>
+       </surname>
+       <honorific>
+       </honorific>
+       <title>
+       </title>
+   </interviewer>
+<!-- Interviewers -->
    <interviewer sID='s1111'>
       <forename>
        </forename>
@@ -57,14 +155,24 @@
        <title>
        </title>
    </interviewer>
-<!-- Case2: different from case 1 interviewer did both, with col'y and without col'y -->
-<!--  <interview>
-   </interview>
-   <interview>
-   </interview> -->
-<!-- Case3: different interviewer reported col'y in both interviews -->
-<!--   <interview>
-   </interview>
-   <interview>
-   </interview> -->
+   <interviewer sID='s3333'>
+      <forename>
+       </forename>
+       <surname>
+       </surname>
+       <honorific>
+       </honorific>
+       <title>
+       </title>
+   </interviewer>
+   <interviewer sID='s6666'>
+      <forename>
+       </forename>
+       <surname>
+       </surname>
+       <honorific>
+       </honorific>
+       <title>
+       </title>
+   </interviewer>
 </interviews> 
