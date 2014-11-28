@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-	<resume rID="1">
+	<resume rID="ID-1">
 		<summary>I am an aspiring web programmer!</summary>
 		<identification>
 			<name>
@@ -47,7 +47,7 @@
 		</skills>
 	</resume>
 	
-	<resume rID="2">
+	<resume rID="ID-2">
 		<summary>Ive been programming for 10 years!</summary>
 		<identification>
 			<name>
@@ -95,7 +95,7 @@
 		</skills>
 	</resume>
 	
-	<resume rID="3">
+	<resume rID="ID-3">
 		<summary>I taught myself programming from the back of a cereal box</summary>
 		<identification>
 			<name>

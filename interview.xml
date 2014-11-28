@@ -3,7 +3,7 @@
 <interviews>
 <!-- This is for Q2 -->
 <!-- Case1: Duplicates, interviewer did two without col'y -->
-   <interview rID='1111' pID='1111' sID='s1111'>
+   <interview rID='1' pID='1' sID='ID-1'>
       <date>
       </date>
       <time>
@@ -12,7 +12,7 @@
       </location>
       <assessment>
          <answers>
-	    <answer qID='1111'>
+	    <answer qID='1'>
 	    </answer>
 	 </answers>
 	 <techProficiency>
@@ -23,7 +23,7 @@
       	 </enthusiasm>
       </assessment>
    </interview>
-   <interview rID='2222' pID='2222' sID='s1111'>
+   <interview rID='2' pID='2' sID='ID-1'>
       <date>
       </date>
       <time>
@@ -32,7 +32,7 @@
       </location>
       <assessment>
          <answers>
-            <answer qID='2222'>
+            <answer qID='2'>
             </answer>
          </answers>
          <techProficiency>
@@ -44,7 +44,7 @@
       </assessment>
    </interview>
 <!-- Case2: different from case 1 interviewer did both, with col'y and without col'y -->
-   <interview rID='3333' pID='3333' sID='s3333'>
+   <interview rID='3' pID='3' sID='ID-3'>
       <date>
       </date>
       <time>
@@ -53,7 +53,7 @@
       </location>
       <assessment>
          <answers>
-            <answer qID='3333'>
+            <answer qID='3'>
             </answer>
          </answers>
          <techProficiency>
@@ -64,7 +64,7 @@
          </enthusiasm>
       </assessment>
    </interview>
-   <interview rID='4444' pID='4444' sID='s3333'>
+   <interview rID='4' pID='4' sID='ID-3'>
       <date>
       </date>
       <time>
@@ -73,7 +73,7 @@
       </location>
       <assessment>
          <answers>
-            <answer qID='4444'>
+            <answer qID='4'>
             </answer>
          </answers>
          <techProficiency>
@@ -88,7 +88,7 @@
       </assessment>
    </interview>
 <!-- Case3: different interviewer reported col'y in both interviews -->
-   <interview rID='5555' pID='5555' sID='s5555'>
+   <interview rID='5' pID='5' sID='ID-5'>
       <date>
       </date>
       <time>
@@ -97,7 +97,7 @@
       </location>
       <assessment>
          <answers>
-            <answer qID='5555'>
+            <answer qID='5'>
             </answer>
          </answers>
          <techProficiency>
@@ -111,7 +111,7 @@
 	 </collegiality>
       </assessment>
    </interview>
-   <interview rID='6666' pID='6666' sID='s6666'>
+   <interview rID='6' pID='6' sID='ID-6'>
       <date>
       </date>
       <time>
@@ -120,7 +120,7 @@
       </location>
       <assessment>
          <answers>
-            <answer qID='6666'>
+            <answer qID='6'>
             </answer>
          </answers>
          <techProficiency>
@@ -134,7 +134,7 @@
          </collegiality>
       </assessment>
    </interview>
-   <interviewer sID='s5555'>
+   <interviewer sID='ID-5'>
       <forename>
        </forename>
        <surname>
@@ -145,7 +145,7 @@
        </title>
    </interviewer>
 <!-- Interviewers -->
-   <interviewer sID='s1111'>
+   <interviewer sID='ID-1'>
       <forename>
        </forename>
        <surname>
@@ -155,7 +155,7 @@
        <title>
        </title>
    </interviewer>
-   <interviewer sID='s3333'>
+   <interviewer sID='ID-3'>
       <forename>
        </forename>
        <surname>
@@ -165,7 +165,7 @@
        <title>
        </title>
    </interviewer>
-   <interviewer sID='s6666'>
+   <interviewer sID='ID-6'>
       <forename>
        </forename>
        <surname>
