@@ -3,6 +3,7 @@
 
 <!-- C|Java|SQL|XQuery|Haskell|Lisp|Scheme|Prolog|Perl|Python|R|MATLAB|Shell|sed|awk|LaTeX-->
 <postings>
+<!-- Postings used for Q4 Postings(1-3) used in case1 -->
 	<posting pID="ID-1">
 		<position>Web Developer</position>
 		<reqSkill importance="5" level="4" what="Java"/>
@@ -28,4 +29,17 @@
 		<reqSkill importance="3" level="2" what="Java"/>
 		<reqSkill importance="4" level="4" what="C"/>
 	</posting>
+
+<!-- Postings used in case2 Q4, Assembly and Cobol levels are never met by any resume-->
+        <posting pID="ID-4">
+                <position>Programmer4</position>
+                <reqSkill importance="5" level="5" what="Assembly"/>
+        </posting>
+
+        <posting pID="ID-5">
+                <position>Programmer5</position>
+                <reqSkill importance="5" level="5" what="Cobol"/>
+        </posting>
+<!-- Postings used in case3 Q4-->
+<!-- Postings used in case4 Q4-->
 </postings>

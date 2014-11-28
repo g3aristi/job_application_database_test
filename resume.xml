@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
+<!-- Case1: general case, some resumes meet the posting requirment level other dont 
+pIDs 1 & 3(genious resume), 6 & 7(low requirements), 8(one good java srcipt resume) are never expected to show up
+pIDs expected Answers: 2(lisp), 4(assembly), 5(cobol), 9(PHP)-->
 	<resume rID="ID-1">
 		<summary>I am an aspiring web programmer!</summary>
 		<identification>
@@ -126,4 +129,135 @@
 			<skill level="1" what="Java"/>
 		</skills>
 	</resume>
+
+<!-- Case2: No resume meets the posting level requirments, i.e no one is good enough in 
+Assenbly and Cobol -->
+        <resume rID="ID-4">
+                <summary>I was taught basic assemble in my Uiversity program</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="2" what="Assembly"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-5">
+                <summary>I was learning Cobol with online tutorials</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="2" what="Cobol"/>
+                </skills>
+        </resume>
+
+<!-- Case3: All resumes meet postings level requirements, i.e people know HTML and CSS -->
+        <resume rID="ID-6">
+                <summary>I was taught basic assemble in my Uiversity program</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="4" what="HTML"/>
+			<skill level='5' what="CSS"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-7">
+                <summary>I was learning Cobol with online tutorials</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="5" what="HTML"/>
+			<skill level="4" what="CSS"/>
+                </skills>
+        </resume>
+<!-- CAse4: Multi level resumes with multi level posting requirements, PHP was randomly not meet-->
+<!-- -->
 </resumes>
