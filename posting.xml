@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE postings SYSTEM "posting.dtd">
+
+<!-- C|Java|SQL|XQuery|Haskell|Lisp|Scheme|Prolog|Perl|Python|R|MATLAB|Shell|sed|awk|LaTeX-->
 <postings>
 	<posting pID="ID-1">
 		<position>Web Developer</position>
