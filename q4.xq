@@ -12,7 +12,7 @@ for $posting in fn:doc("posting.xml")//posting
 
 				return $posting/@pID
 
-let $dresult :=		
+let $result :=		
 
 for $posting in fn:doc("posting.xml")//posting
 
@@ -22,7 +22,4 @@ for $posting in fn:doc("posting.xml")//posting
 		
 		return $postingSkill/../@pID
 
-for $id in $dresult
-	for $id2 in $dresult
-		return ($id, $id2, "|")
-(:return data($result) :)
+return data($result)
