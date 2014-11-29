@@ -1,4 +1,4 @@
-let $underqualified := 
+let $underqualified :=
 
 for $posting in fn:doc("posting.xml")//posting
 
@@ -8,7 +8,7 @@ for $posting in fn:doc("posting.xml")//posting
 
 			for $resumeSkill in $resume//skill
 
-				where ($resumeSkill/@what = $postingSkill/@what) and ($resumeSkill/@level < $postingSkill/@level)
+				where ($resumeSkill/@what = $postingSkill/@what) and ($resumeSkill/@level > $postingSkill/@level)
 
 				return $posting/@pID
 		
