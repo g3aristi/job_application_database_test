@@ -258,6 +258,69 @@ Assenbly and Cobol -->
 			<skill level="4" what="CSS"/>
                 </skills>
         </resume>
-<!-- CAse4: Multi level resumes with multi level posting requirements, PHP was randomly not meet-->
-<!-- -->
+<!-- Case4: Multi level resumes with multi level posting requirements, PHP was randomly not met.
+	As well as checking for duplicates, i.e 2 resumes dont meet 1 posting -->
+        <resume rID="ID-8">
+                <summary>I learn Javascript and PHP through w3school</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="4" what="JavaScript"/>
+                        <skill level="2" what="PHP"/>
+                </skills>
+	</resume>
+
+        <resume rID="ID-9">
+                <summary>I took csc309 at University of Toronto, whcih taught me JavaScript and PHP</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="2" what="PHP"/>
+                        <skill level="3" what="JavaScript"/>
+                </skills>
+	</resume>
 </resumes>
