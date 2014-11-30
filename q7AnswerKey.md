@@ -49,27 +49,16 @@ Find postings whos required level was not met by any resume. Report the pID.<br>
 Find postings that have a required skill such that (a) fewer than half the resumes include that
 skill or (b) of the resumes that include the skill, fewer than half list it at a level above 3. (This
 is an inclusive or; postings that satisfy both (a) and (b) should be included.) Report the pID.
-* attribute pID {"ID-1"},
-attribute pID {"ID-1"},
-attribute pID {"ID-2"},
-attribute pID {"ID-3"},
-attribute pID {"ID-3"},
-attribute pID {"ID-3"},
-attribute pID {"ID-4"},
-attribute pID {"ID-5"},
-attribute pID {"ID-6"},
-attribute pID {"ID-6"},
-attribute pID {"ID-7"},
-attribute pID {"ID-7"},
-attribute pID {"ID-8"},
-attribute pID {"ID-8"},
-attribute pID {"ID-9"},
-attribute pID {"ID-9"},
-attribute pID {"ID-10"},
-attribute pID {"ID-10"},
-attribute pID {"ID-10"},
-attribute pID {"ID-10"},
-attribute pID {"ID-10"}
+* xs:untypedAtomic("ID-1"),
+* xs:untypedAtomic("ID-2"),
+* xs:untypedAtomic("ID-3"),
+* xs:untypedAtomic("ID-4"),
+* xs:untypedAtomic("ID-5"),
+* xs:untypedAtomic("ID-6"),
+* xs:untypedAtomic("ID-7"),
+* xs:untypedAtomic("ID-8"),
+* xs:untypedAtomic("ID-9"),
+* xs:untypedAtomic("ID-10")
 
 ### Q6
 
