@@ -16,7 +16,7 @@ let $pskill :=
 
 let $table := 
 
-for $x in doc("q7resume.xml")//resume
+for $x in doc("resume.xml")//resume
 
 	for $sx in $x//skill
 

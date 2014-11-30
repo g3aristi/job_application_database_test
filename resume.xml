@@ -360,4 +360,173 @@ Assenbly and Cobol -->
                 <skills>
                 </skills>
         </resume>
+
+<!-- Q7 case1: Making sure it counts up to 5 repetitions 
+	what expected is that at level 5 the number of 
+	resumes using the language increases 
+	Haskel 1, Prolog 2, MATLAB 3, R 4, Xquery 5 -->
+        <resume rID="ID-11">
+                <summary>I took csc309 at University of Toronto, whcih taught me JavaScript and PHP</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="5" what="Haskell"/>
+                        <skill level="5" what="Prolog"/>
+                        <skill level="5" what="MATLAB"/>
+                        <skill level="5" what="R"/>
+                        <skill level="5" what="Xquery"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-12">
+                <summary>I took csc309 at University of Toronto, whcih taught me JavaScript and PHP</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="5" what="Prolog"/>
+                        <skill level="5" what="MATLAB"/>
+                        <skill level="5" what="R"/>
+                        <skill level="5" what="Xquery"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-13">
+                <summary>I took csc309 at University of Toronto, whcih taught me JavaScript and PHP</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="5" what="MATLAB"/>
+                        <skill level="5" what="R"/>
+                        <skill level="5" what="Xquery"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-14">
+                <summary>I took csc309 at University of Toronto, whcih taught me JavaScript and PHP</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="5" what="R"/>
+                        <skill level="5" what="Xquery"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-15">
+                <summary>I took csc309 at University of Toronto, whcih taught me JavaScript and PHP</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 Yonge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="5" what="Xquery"/>
+                </skills>
+        </resume>
 </resumes>
