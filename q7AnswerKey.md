@@ -16,28 +16,33 @@ This are the resumes with more than three skills listed
 ### Q2
 
 Interviewers who provided no assessment of collegiality
-* xs:untypedAtomic("ID-1"), xs:untypedAtomic("ID-3")
+* <noCol>ID-1 ID-3</noCol>
 
 ### Q3
 
 Posting's highest importance report what the skill is and its importance. <br>
 <b> Should also provide the name of the skill </b>
-* 5, 3, 4, 5, 5, 3, 3, 3, 4, 5
+* Highest-importance what="Java" importance="5"/>,
+* Highest-importance what="Lisp" importance="3"/>,
+* Highest-importance what="C" importance="4"/>,
+* Highest-importance what="Assembly" importance="5"/>,
+* Highest-importance what="Cobol" importance="5"/>,
+* Highest-importance what="HTML" importance="3"/>,
+* Highest-importance what="CSS" importance="3"/>,
+* Highest-importance what="HTML" importance="3"/>,
+* Highest-importance what="JavaScript" importance="4"/>,
+* Highest-importance what="PHP" importance="4"/>,
+* Highest-importance what="Haskell" importance="5"/>,
+* Highest-importance what="Prolog" importance="5"/>,
+* Highest-importance what="MATLAB" importance="5"/>,
+* Highest-importance what="R" importance="5"/>,
+* Highest-importance what="Xquery" importance="5"/>
 
 ### Q4
 
 Find postings whos required level was not met by any resume. Report the pID.<br>
 <b>Should not have duplicates (ID-9) </b>
-* xs:untypedAtomic("ID-2"),
-* xs:untypedAtomic("ID-4"),
-* xs:untypedAtomic("ID-5"),
-* xs:untypedAtomic("ID-9"),
-* xs:untypedAtomic("ID-9"),
-* xs:untypedAtomic("ID-10"),
-* xs:untypedAtomic("ID-10"),
-* xs:untypedAtomic("ID-10"),
-* xs:untypedAtomic("ID-10"),
-* xs:untypedAtomic("ID-10")
+* <unsatisfied> ID-2 ID-4 ID-5 ID-9 ID-10 </unsatisfied>
 
 ### Q5
 
