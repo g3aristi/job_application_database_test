@@ -16,7 +16,8 @@
 	</skill>
 	<skill name="Cobol">, 
 		<count level="1" n="0"/>
-	</skill><skill name="HTML">, 
+	</skill>
+	<skill name="HTML">, 
 		<count level="1" n="0"/>
 	</skill>
 	<skill name="CSS">, 
@@ -27,8 +28,7 @@
 	</skill>
 	<skill name="PHP">, 
 		<count level="1" n="0"/>
-	</skill>#####
-
+	</skill>
 	<skill name="C">, 
 		<count level="2" n="1"/>
 	</skill>
@@ -55,8 +55,7 @@
 	</skill>
 	<skill name="PHP">, 
 		<count level="2" n="3"/>
-	</skill>#####
-
+	</skill>
 	<skill name="C">, 
 		<count level="3" n="0"/>
 	</skill>
@@ -83,8 +82,7 @@
 	</skill>
 	<skill name="PHP">, 
 		<count level="3" n="0"/>
-	</skill>#####
-
+	</skill>
 	<skill name="C">, 
 		<count level="4" n="0"/>
 	</skill>
@@ -111,8 +109,7 @@
 	</skill>
 	<skill name="PHP">, 
 		<count level="4" n="0"/>
-	</skill>#####
-
+	</skill>
 	<skill name="C">, 
 		<count level="5" n="1"/>
 	</skill>
