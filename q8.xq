@@ -37,11 +37,23 @@ for $interview in $interviews
 	return 	(
 
 	<interview>{
-		<person rID="{$rID/@rID}" Firstname="{$rID//forename}" LastName="{$rID//surname}"></person>,
+		<who rID="{$rID/@rID}" forename="{$rID//forename}" surname="{$rID//surname}"></who>,
 		<position>{data($pID/position)}</position>,
-		<degreeOfMatch>{$degreeOfMatch}</degreeOfMatch>,
-		<assessmentAverage>{$assAvg}</assessmentAverage>
+		<match>{$degreeOfMatch}</match>,
+		<average>{$assAvg}</average>
 	}</interview>)
 
 }</report>
+
+(:
+<!ELEMENT report (interview*)>
+<!ELEMENT interview (who, position, match, average)>
+<!ELEMENT who EMPTY>
+<!ATTLIST who rID CDATA #REQUIRED
+              forename CDATA #REQUIRED
+              surname CDATA #REQUIRED>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT match (#PCDATA)>
+<!ELEMENT average (#PCDATA)>
+:)
 
