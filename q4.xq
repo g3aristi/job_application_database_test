@@ -22,4 +22,4 @@ for $posting in fn:doc("posting.xml")//posting
 		
 		return $postingSkill/../@pID
 
-return data($result)
+return <unsatisfied> {distinct-values($result)} </unsatisfied>
