@@ -19,7 +19,8 @@ let $postings := fn:doc("posting.xml")//posting
 let $resumes := fn:doc("resume.xml")//resume
 
 
-for $posting in $postings
+
+let $answer := for $posting in $postings
 	for $skill in $posting//reqSkill
 
 		where 
@@ -34,16 +35,9 @@ for $posting in $postings
 
 
 return $posting//@pID
+
+return distinct-values($answer)
 		
-
-
-	
-
-(:
-where (count($resumes//skill[@what = $skill/@what and @level > 3]) OR )
-:)
-
-
 
 	
 

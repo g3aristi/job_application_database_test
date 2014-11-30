@@ -11,7 +11,7 @@
       <assessment>
          <answers>
 	         <answer qID='ID-1'>3</answer>
-           <answer qID='ID-2'>3</answer>
+           <answer qID='ID-2'>2</answer>
 
 	       </answers>
 	   <techProficiency>3</techProficiency>
@@ -27,8 +27,7 @@
       
       <assessment>
          <answers>
-            <answer qID='2'>
-            </answer>
+            <answer qID='2'>4</answer>
          </answers>
          <techProficiency>5</techProficiency>
          <communication>4</communication>
@@ -42,8 +41,7 @@
       <location>building3</location>
       <assessment>
          <answers>
-            <answer qID='3'>
-            </answer>
+            <answer qID='3'>5</answer>
          </answers>
          <techProficiency>2</techProficiency>
          <communication>1</communication>
