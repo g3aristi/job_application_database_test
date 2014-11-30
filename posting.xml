@@ -8,18 +8,18 @@
 		<reqSkill importance="5" level="4" what="Java"/>
 		<reqSkill importance="4" level="4" what="SQL"/>
 		<questions>
-			<question qID="qID"></question>
-			<question qID="qID"></question>
+			<question qID="ID-1"></question>
+			<question qID="ID-2"></question>
 		</questions>
 		<questions>
-			<question qID="qID"></question>
-			<question qID="qID"></question>
+			<question qID="ID-3"></question>
+			<question qID="ID-4"></question>
 		</questions>
 	</posting>
 	
 	<posting pID="ID-2">
 		<position>Niche Programmer</position>
-		<reqSkill importance="3" level="3" what="Lisp"/>
+		<reqSkill importance="4" level="3" what="Lisp"/>
 	</posting>
 
 	<posting pID="ID-3">

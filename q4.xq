@@ -14,9 +14,8 @@ for $posting in fn:doc("posting.xml")//posting
 		
 
 (:May want to make distinct:)
-for $posting in fn:doc("posting.xml")//posting
-	distint-values(for $postingSkill in $posting//reqSkill
 
+for $posting in fn:doc("posting.xml")//posting
+	for $postingSkill in $posting//reqSkill
 		where not($postingSkill/../@pID = $underqualified)
-		
-		return $postingSkill/../@pID)
+		return $postingSkill/../@pID
