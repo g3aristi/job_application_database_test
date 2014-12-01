@@ -18,7 +18,7 @@ for $posting in fn:doc("posting.xml")//posting
 
 	for $postingSkill in $posting//reqSkill
 
-		where not($postingSkill/../@pID = $underqualified)
+		where count($underqualified[/@pID = $postingSkill/../@pID]) = 0
 		
 		return $postingSkill/../@pID
 
