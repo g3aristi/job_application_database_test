@@ -33,7 +33,7 @@
 <!-- Postings used in case2 Q4, Assembly and Cobol levels are never met by any resume-->
         <posting pID="ID-4">
                 <position>Programmer4</position>
-                <reqSkill importance="5" level="5" what="Haskel"/>
+                <reqSkill importance="5" level="5" what="Haskell"/>
         </posting>
 
         <posting pID="ID-5">
