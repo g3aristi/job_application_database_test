@@ -33,38 +33,38 @@
 <!-- Postings used in case2 Q4, Assembly and Cobol levels are never met by any resume-->
         <posting pID="ID-4">
                 <position>Programmer4</position>
-                <reqSkill importance="5" level="5" what="Assembly"/>
+                <reqSkill importance="5" level="5" what="Haskel"/>
         </posting>
 
         <posting pID="ID-5">
                 <position>Programmer5</position>
-                <reqSkill importance="5" level="5" what="Cobol"/>
+                <reqSkill importance="5" level="5" what="Scheme"/>
         </posting>
 <!-- Postings used in case3 Q4-->
         <posting pID="ID-6">
                 <position>Programmer6</position>
-                <reqSkill importance="3" level="2" what="HTML"/>
-		<reqSkill importance="2" level="1" what="CSS"/>
+                <reqSkill importance="3" level="2" what="Prolog"/>
+		<reqSkill importance="2" level="1" what="Shell"/>
         </posting>
 
         <posting pID="ID-7">
                 <position>Programmer7</position>
-                <reqSkill importance="3" level="2" what="CSS"/>
-		<reqSkill importance="2" level="1" what="HTML"/>
+                <reqSkill importance="3" level="2" what="Shell"/>
+		<reqSkill importance="2" level="1" what="Prolog"/>
         </posting>
 <!-- Postings used in case4 Q4-->
 	<!-- This posting should be meet, so it should not appear-->
         <posting pID="ID-8">
                 <position>Programmer8</position>
-                <reqSkill importance="3" level="2" what="HTML"/>
-                <reqSkill importance="2" level="1" what="CSS"/>
+                <reqSkill importance="3" level="2" what="Prolog"/>
+                <reqSkill importance="2" level="1" what="Shell"/>
         </posting>
 
 	<!-- Postings 9 is checking for duplicates, so resumes 8-9 should fail to satisfy it-->
         <posting pID="ID-9">
                 <position>Programmer9</position>
-                <reqSkill importance="4" level="5" what="JavaScript"/>
-                <reqSkill importance="4" level="4" what="PHP"/>
+                <reqSkill importance="4" level="5" what="sed"/>
+                <reqSkill importance="4" level="4" what="awk"/>
         </posting>
 
 <!-- Q7: adding posting so that in query 7 all 5 level can be examplefy -->
@@ -74,6 +74,6 @@
                 <reqSkill importance="5" level="5" what="Prolog"/>
                 <reqSkill importance="5" level="5" what="MATLAB"/>
                 <reqSkill importance="5" level="5" what="R"/>
-                <reqSkill importance="5" level="5" what="Xquery"/>
+                <reqSkill importance="5" level="5" what="XQuery"/>
         </posting>
 </postings>
