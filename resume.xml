@@ -3,7 +3,7 @@
 <resumes>
 <!-- Q4 Case1: general case, some resumes meet the posting requirment level other dont 
 pIDs 1 & 3(genious resume), 6 & 7(low requirements), 8(one good java srcipt resume) are never expected to show up
-pIDs expected Answers: 2(lisp), 4(assembly), 5(cobol), 9(PHP)-->
+pIDs expected Answers: 2(lisp), 4(Haskell), 5(Scheme), 9(awk)-->
 	<resume rID="ID-1">
 		<summary>I am an aspiring web programmer!</summary>
 		<identification>
