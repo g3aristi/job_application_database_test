@@ -160,7 +160,7 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="2" what="Assembly"/>
+                        <skill level="2" what="Haskell"/>
                 </skills>
         </resume>
 
@@ -191,7 +191,7 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="2" what="Cobol"/>
+                        <skill level="2" what="Scheme"/>
                 </skills>
         </resume>
 
@@ -226,8 +226,8 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="4" what="HTML"/>
-			<skill level='5' what="CSS"/>
+                        <skill level="4" what="Prolog"/>
+			<skill level='5' what="Shell"/>
                 </skills>
         </resume>
 
@@ -258,8 +258,8 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="5" what="HTML"/>
-			<skill level="4" what="CSS"/>
+                        <skill level="5" what="Prolog"/>
+			<skill level="4" what="Shell"/>
                 </skills>
         </resume>
 <!-- Q4 Case4: Multi level resumes with multi level posting requirements, PHP was randomly not met.
@@ -293,8 +293,8 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="4" what="JavaScript"/>
-                        <skill level="2" what="PHP"/>
+                        <skill level="4" what="sed"/>
+                        <skill level="2" what="awk"/>
                 </skills>
 	</resume>
 
@@ -325,8 +325,8 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="2" what="PHP"/>
-                        <skill level="3" what="JavaScript"/>
+                        <skill level="2" what="awk"/>
+                        <skill level="3" what="sed"/>
                 </skills>
 	</resume>
 
@@ -397,7 +397,7 @@ Assenbly and Cobol -->
                         <skill level="5" what="Prolog"/>
                         <skill level="5" what="MATLAB"/>
                         <skill level="5" what="R"/>
-                        <skill level="5" what="Xquery"/>
+                        <skill level="5" what="XQuery"/>
                 </skills>
         </resume>
 
@@ -431,7 +431,7 @@ Assenbly and Cobol -->
                         <skill level="5" what="Prolog"/>
                         <skill level="5" what="MATLAB"/>
                         <skill level="5" what="R"/>
-                        <skill level="5" what="Xquery"/>
+                        <skill level="5" what="XQuery"/>
                 </skills>
         </resume>
 
@@ -464,7 +464,7 @@ Assenbly and Cobol -->
                 <skills>
                         <skill level="5" what="MATLAB"/>
                         <skill level="5" what="R"/>
-                        <skill level="5" what="Xquery"/>
+                        <skill level="5" what="XQuery"/>
                 </skills>
         </resume>
 
@@ -496,7 +496,7 @@ Assenbly and Cobol -->
                 </experience>
                 <skills>
                         <skill level="5" what="R"/>
-                        <skill level="5" what="Xquery"/>
+                        <skill level="5" what="XQuery"/>
                 </skills>
         </resume>
 
@@ -527,7 +527,7 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="5" what="Xquery"/>
+                        <skill level="5" what="XQuery"/>
                 </skills>
         </resume>
 </resumes>
