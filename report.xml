@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE report SYSTEM "report.dtd">
+
+<report><interview><who rID="ID-1" forename="Ted" surname="Bear"/><position>Web Developer</position><match>-9</match><average>2.6</average></interview><interview><who rID="ID-2" forename="James" surname="Spunko"/><position>Niche Programmer</position><match>4</match><average>4.5</average></interview><interview><who rID="ID-3" forename="Joe" surname="Smoe"/><position>Programmer1</position><match>-6</match><average>2.5</average></interview></report>
