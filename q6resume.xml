@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resumes SYSTEM "resume.dtd">
+<resumes>
+	<resume rID="ID-8">
+                <summary>I learn Javascript and PHP through w3school</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 YoOBnge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="4" what="JavaScript"/>
+                        <skill level="2" what="PHP"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-9">
+                <summary>I learn Javascript and PHP through w3school</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 YoOBnge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="4" what="JavaScript"/>
+                        <skill level="2" what="PHP"/>
+                </skills>
+        </resume>
+
+        <resume rID="ID-10">
+                <summary>I learn Javascript and PHP through w3school</summary>
+                <identification>
+                        <name>
+                                <forename>Joe</forename>
+                                <surname>Smoe</surname>
+                                <honorific>Mr</honorific>
+                                <title>Unemployed</title>
+                        </name>
+                        <sex>M</sex>
+                        <DOB>01/01/1985</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>3 YoOBnge Street</address>
+                        <telephone>6471112224</telephone>
+                        <email>jamesspunko@gmail.com</email>
+                </identification>
+                <experience>
+                        <position where="Roots">
+                                <title>Sales Associate</title>
+                                <description>Selling tings to da peoplez</description>
+                                <period>
+                                        <startDate>01/01/2012</startDate>
+                                        <endDate>01/01/2013</endDate>
+                                </period>
+                        </position>
+                </experience>
+                <skills>
+                        <skill level="4" what="JavaScript"/>
+                        <skill level="2" what="PHP"/>
+                </skills>
+        </resume>
+</resumes>

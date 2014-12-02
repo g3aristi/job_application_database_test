@@ -1,4 +1,3 @@
-
 (:Returns half of resume:)
 
 let $halfofResumes := 
@@ -37,15 +36,3 @@ let $answer := for $posting in $postings
 return $posting//@pID
 
 return distinct-values($answer)
-		
-
-	
-
-
-
-			
-
-
-
-
-

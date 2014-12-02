@@ -160,7 +160,7 @@ Assenbly and Cobol -->
                         </position>
                 </experience>
                 <skills>
-                        <skill level="2" what="Haskell"/>
+                        <skill level="2" what="Perl"/>
                 </skills>
         </resume>
 
@@ -531,3 +531,4 @@ Assenbly and Cobol -->
                 </skills>
         </resume>
 </resumes>
+

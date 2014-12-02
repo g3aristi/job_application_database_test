@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE skills SYSTEM "skills.dtd">
+
+<skills>
+	<skill name="C"> 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="SQL"> 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="Java"> 
+		<count level="1" n="1"/>
+	</skill>
+	<skill name="Assembly">, 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="Cobol">, 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="HTML">, 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="CSS">, 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="JavaScript">, 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="PHP">, 
+		<count level="1" n="0"/>
+	</skill>
+	<skill name="C">, 
+		<count level="2" n="1"/>
+	</skill>
+	<skill name="SQL">, 
+		<count level="2" n="0"/>
+	</skill>
+	<skill name="Java">, 
+		<count level="2" n="0"/>
+	</skill>
+	<skill name="Assembly">, 
+		<count level="2" n="1"/>
+	</skill>
+	<skill name="Cobol">, 
+		<count level="2" n="1"/>
+	</skill>
+	<skill name="HTML">, 
+		<count level="2" n="0"/>
+	</skill>
+	<skill name="CSS">, 
+		<count level="2" n="0"/>
+	</skill>
+	<skill name="JavaScript">, 
+		<count level="2" n="0"/>
+	</skill>
+	<skill name="PHP">, 
+		<count level="2" n="3"/>
+	</skill>
+	<skill name="C">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="SQL">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="Java">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="Assembly">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="Cobol">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="HTML">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="CSS">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="JavaScript">, 
+		<count level="3" n="2"/>
+	</skill>
+	<skill name="PHP">, 
+		<count level="3" n="0"/>
+	</skill>
+	<skill name="C">, 
+		<count level="4" n="0"/>
+	</skill>
+	<skill name="SQL">, 
+		<count level="4" n="0"/>
+	</skill>
+	<skill name="Java">, 
+		<count level="4" n="0"/>
+	</skill>
+	<skill name="Assembly">, 
+		<count level="4" n="0"/>
+	</skill>
+	<skill name="Cobol">, 
+		<count level="4" n="0"/>
+	</skill>
+	<skill name="HTML">, 
+		<count level="4" n="1"/>
+	</skill>
+	<skill name="CSS">, 
+		<count level="4" n="1"/>
+	</skill>
+	<skill name="JavaScript">, 
+		<count level="4" n="1"/>
+	</skill>
+	<skill name="PHP">, 
+		<count level="4" n="0"/>
+	</skill>
+	<skill name="C">, 
+		<count level="5" n="1"/>
+	</skill>
+	<skill name="SQL">, 
+		<count level="5" n="1"/>
+	</skill>
+	<skill name="Java">, 
+		<count level="5" n="1"/>
+	</skill>
+	<skill name="Assembly">, 
+		<count level="5" n="0"/>
+	</skill>
+	<skill name="Cobol">, 
+		<count level="5" n="0"/>
+	</skill>
+	<skill name="HTML">, 
+		<count level="5" n="1"/>
+	</skill>
+	<skill name="CSS">, 
+		<count level="5" n="1"/>
+	</skill>
+	<skill name="JavaScript">, 
+		<count level="5" n="0"/>
+	</skill>
+	<skill name="PHP">, 
+		<count level="5" n="0"/>
+	</skill>
+</skills>

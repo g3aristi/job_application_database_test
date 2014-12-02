@@ -7,7 +7,7 @@
 	<posting pID="ID-1">
 		<position>Web Developer</position>
 		<reqSkill importance="5" level="4" what="Java"/>
-		<reqSkill importance="4" level="4" what="SQL"/>
+		<reqSkill importance="4" level="3" what="SQL"/>
 		<questions>
 			<question qID="ID-1"></question>
 			<question qID="ID-2"></question>
@@ -33,7 +33,7 @@
 <!-- Postings used in case2 Q4, Assembly and Cobol levels are never met by any resume-->
         <posting pID="ID-4">
                 <position>Programmer4</position>
-                <reqSkill importance="5" level="5" what="Haskell"/>
+                <reqSkill importance="5" level="5" what="Perl"/>
         </posting>
 
         <posting pID="ID-5">
@@ -75,5 +75,11 @@
                 <reqSkill importance="5" level="5" what="MATLAB"/>
                 <reqSkill importance="5" level="5" what="R"/>
                 <reqSkill importance="5" level="5" what="XQuery"/>
+        </posting>
+
+<!-- Q4 case where the what is never mention in the resume.xml-->
+        <posting pID="ID-119">
+                <position>Programmer9</position>
+                <reqSkill importance="4" level="5" what="HTML"/>
         </posting>
 </postings>

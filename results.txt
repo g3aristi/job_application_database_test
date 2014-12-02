@@ -1,0 +1,228 @@
+Checking Assignment 3 (Part 1) Solutions
+
+========== Generating query output ==========
+
+------ Query q1 ------
+
+Raw results:
+attribute rID {"ID-2"},
+<forename>James</forename>,
+6,
+attribute rID {"ID-11"},
+<forename>Joe</forename>,
+5,
+attribute rID {"ID-12"},
+<forename>Joe</forename>,
+4
+
+------ Query q2 ------
+
+Raw results:
+<noCol>ID-1</noCol>
+
+------ Query q3 ------
+
+Raw results:
+<Highest-importance what="Java" importance="5"/>,
+<Highest-importance what="Lisp" importance="4"/>,
+<Highest-importance what="C" importance="4"/>,
+<Highest-importance what="Haskell" importance="5"/>,
+<Highest-importance what="Scheme" importance="5"/>,
+<Highest-importance what="Prolog" importance="3"/>,
+<Highest-importance what="Shell" importance="3"/>,
+<Highest-importance what="Prolog" importance="3"/>,
+<Highest-importance what="sed" importance="4"/>,
+<Highest-importance what="awk" importance="4"/>,
+<Highest-importance what="Haskell" importance="5"/>,
+<Highest-importance what="Prolog" importance="5"/>,
+<Highest-importance what="MATLAB" importance="5"/>,
+<Highest-importance what="R" importance="5"/>,
+<Highest-importance what="XQuery" importance="5"/>
+
+------ Query q4 ------
+
+Raw results:
+<unsatisfied>ID-4 ID-5 ID-9 ID-10</unsatisfied>
+
+------ Query q5 ------
+
+Raw results:
+xs:untypedAtomic("ID-1"),
+xs:untypedAtomic("ID-2"),
+xs:untypedAtomic("ID-3"),
+xs:untypedAtomic("ID-4"),
+xs:untypedAtomic("ID-5"),
+xs:untypedAtomic("ID-6"),
+xs:untypedAtomic("ID-7"),
+xs:untypedAtomic("ID-8"),
+xs:untypedAtomic("ID-9"),
+xs:untypedAtomic("ID-10")
+
+------ Query q6 ------
+
+Raw results:
+xs:untypedAtomic("ID-7ID-11"),
+xs:untypedAtomic("ID-7ID-12"),
+xs:untypedAtomic("ID-8ID-9"),
+xs:untypedAtomic("ID-9ID-8"),
+xs:untypedAtomic("ID-11ID-7"),
+xs:untypedAtomic("ID-11ID-12"),
+xs:untypedAtomic("ID-11ID-13"),
+xs:untypedAtomic("ID-11ID-14"),
+xs:untypedAtomic("ID-11ID-15"),
+xs:untypedAtomic("ID-12ID-7"),
+xs:untypedAtomic("ID-12ID-11"),
+xs:untypedAtomic("ID-12ID-13"),
+xs:untypedAtomic("ID-12ID-14"),
+xs:untypedAtomic("ID-12ID-15"),
+xs:untypedAtomic("ID-13ID-11"),
+xs:untypedAtomic("ID-13ID-12"),
+xs:untypedAtomic("ID-13ID-14"),
+xs:untypedAtomic("ID-13ID-15"),
+xs:untypedAtomic("ID-14ID-11"),
+xs:untypedAtomic("ID-14ID-12"),
+xs:untypedAtomic("ID-14ID-13"),
+xs:untypedAtomic("ID-14ID-15"),
+xs:untypedAtomic("ID-15ID-11"),
+xs:untypedAtomic("ID-15ID-12"),
+xs:untypedAtomic("ID-15ID-13"),
+xs:untypedAtomic("ID-15ID-14")
+
+------ Query q7 ------
+
+Raw results:
+<skills><skill name="C"><count level="1" n="0"/><count level="2" n="1"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="SQL"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Java"><count level="1" n="1"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Lisp"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Haskell"><count level="1" n="0"/><count level="2" n="1"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Scheme"><count level="1" n="0"/><count level="2" n="1"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="Prolog"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="1"/><count level="5" n="3"/></skill><skill name="Shell"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="1"/><count level="5" n="1"/></skill><skill name="sed"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="1"/><count level="4" n="1"/><count level="5" n="0"/></skill><skill name="awk"><count level="1" n="0"/><count level="2" n="2"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="MATLAB"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="3"/></skill><skill name="R"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="4"/></skill><skill name="XQuery"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="5"/></skill></skills>
+
+Pretty results:
+<?xml version="1.0" standalone="no"?>
+<skills>
+  <skill name="C">
+    <count level="1" n="0"/>
+    <count level="2" n="1"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="SQL">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="Java">
+    <count level="1" n="1"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="Lisp">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="Haskell">
+    <count level="1" n="0"/>
+    <count level="2" n="1"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="Scheme">
+    <count level="1" n="0"/>
+    <count level="2" n="1"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="Prolog">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="1"/>
+    <count level="5" n="3"/>
+  </skill>
+  <skill name="Shell">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="1"/>
+    <count level="5" n="1"/>
+  </skill>
+  <skill name="sed">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="1"/>
+    <count level="4" n="1"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="awk">
+    <count level="1" n="0"/>
+    <count level="2" n="2"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
+  <skill name="MATLAB">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="3"/>
+  </skill>
+  <skill name="R">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="4"/>
+  </skill>
+  <skill name="XQuery">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="5"/>
+  </skill>
+</skills>
+
+------ Query q8 ------
+
+Raw results:
+<report><interview><who rID="ID-1" forename="Ted" surname="Bear"/><position>Web Developer</position><match>-9</match><average>2.6</average></interview><interview><who rID="ID-2" forename="James" surname="Spunko"/><position>Niche Programmer</position><match>4</match><average>4.5</average></interview><interview><who rID="ID-3" forename="Joe" surname="Smoe"/><position>Programmer1</position><match>-6</match><average>2.5</average></interview></report>
+
+Pretty results:
+<?xml version="1.0" standalone="no"?>
+<report>
+  <interview>
+    <who rID="ID-1" forename="Ted" surname="Bear"/>
+    <position>Web Developer</position>
+    <match>-9</match>
+    <average>2.6</average>
+  </interview>
+  <interview>
+    <who rID="ID-2" forename="James" surname="Spunko"/>
+    <position>Niche Programmer</position>
+    <match>4</match>
+    <average>4.5</average>
+  </interview>
+  <interview>
+    <who rID="ID-3" forename="Joe" surname="Smoe"/>
+    <position>Programmer1</position>
+    <match>-6</match>
+    <average>2.5</average>
+  </interview>
+</report>
+
+======= Validating xml generated by queries 7 and 8 =======
+
+------ Query q7 ------
+Results Well-formed? (no news is good news)
+Results valid? (no news is good news)
+
+------ Query q8 ------
+Results Well-formed? (no news is good news)
+Results valid? (no news is good news)
