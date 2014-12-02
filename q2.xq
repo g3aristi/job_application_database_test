@@ -2,7 +2,7 @@ let $da :=
 
 	for $interview in doc("interview.xml")//interview
 
-	where empty($interview//collegiality)
+	where not($interview//collegiality)
 
 	return $interview/@sID
 
